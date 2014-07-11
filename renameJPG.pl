@@ -27,7 +27,7 @@ Mr Sholto Maud <sholto.maud@gmail.com>
 
 main: { 
    
-  my @documents = GetFileList('\.jp*','',0,'S:\\Hydstra\\temp\\baseline assessments\\AGECONSULTANTS\\2014-07-08');
+  my @documents = GetFileList('\.jp*','',0,'');
   
   foreach ( @documents ){
     my @doc = split('\.',$_);
