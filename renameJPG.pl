@@ -17,6 +17,7 @@ version 0.0.1
 
 A simple script using Hydstra pl tools to rename the extensions of image documents from jpeg to jpg.
 
+
 =head1 AUTHOR
 
 Mr Sholto Maud <sholto.maud@gmail.com>    
@@ -27,7 +28,7 @@ Mr Sholto Maud <sholto.maud@gmail.com>
 
 main: { 
    
-  my @documents = GetFileList('\.jp*','',0,'');
+  my @documents = GetFileList('\.jp*','',0,'S:\\Hydstra\\temp\\baseline assessments\\AGECONSULTANTS\\2014-07-08');
   
   foreach ( @documents ){
     my @doc = split('\.',$_);
