@@ -22,6 +22,10 @@ A simple script using Hydstra pl tools to rename the extensions of image documen
 
 Mr Sholto Maud <sholto.maud@gmail.com>    
     
+=head1 LICENCE
+
+MIT    
+    
 =cut
 
 
